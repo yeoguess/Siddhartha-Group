@@ -1,0 +1,172 @@
+/*
+Theme Name: Siddhartha Group
+Theme URI: http://socialaves.com
+Author: Yeo Guess
+Author URI: http://socialaves.com
+Description: Business Site
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Social Aves
+*/
+/* 
+    Created on : 10 April, 2017, 10:20:36 PM
+    Author     : YEO GUE$$
+    File       : Siddhartha group template
+    version    : v1.0
+*/
+
+.header-upper{
+    background-color: #A7E0F4;
+}
+
+.header-lower{
+    background-color: black;
+}
+
+header .intro-text .intro-lead-in{
+    font-family: Gotham light;
+    font-size:22px;
+    line-height:22px;
+    margin-bottom:25px
+}
+header .intro-text .intro-heading{
+    font-family:Gotham black,sans-serif;
+    font-weight:700;
+    font-size:50px;
+    line-height:50px;
+    margin-bottom:25px
+    }
+@media (min-width:768px){
+    header .intro-text{
+        padding-top:300px;
+        padding-bottom:200px
+    }
+header .intro-text .intro-lead-in{
+    font-family:Gotham,sans-serif;
+    font-size:40px;
+    line-height:40px;
+    margin-bottom:25px
+    }
+header .intro-text .intro-heading{
+    font-family:Gotham black,sans-serif;
+    font-weight:700;
+    font-size:75px;
+    line-height:75px;
+    margin-bottom:50px
+    }
+header .intro-text .details{
+    font-family: Gotham light,sans-serif;
+}
+}
+/*-- Footer --*/
+.footer {
+    background: url("images/footer.png");
+    color: #FFF;
+}
+
+.subscribe-form form{
+    width: 57%;
+    margin: 0 auto;
+}
+
+.subscribe-form form input[type="text"]{
+    background: #fff;
+    color: #000;
+    padding: 1em;
+    width: 94%;
+    border:2px solid #fff;
+    border-radius: 0.2em;
+}
+
+.subscribe-form form input[type="submit"]{
+    padding: 0.6em 2em;
+    background: #0C789F;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    display: block;
+    margin: 1.8em auto 0;
+}
+
+.subscribe-form form input[type="submit"]:hover{
+    background: #000;
+}
+
+.subscribe-form{
+    padding: 1.8em 0 4em;
+}
+
+.newsletter input[type="text"] {
+    width: 75%;
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.newsletter input[type="submit"] {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 8px 21px;
+    float: right;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.newsletter input[type="submit"]:hover {
+    background-color: #fff;
+}
+
+.footer-grids p {
+    line-height: 25px;
+}
+
+.copyright {
+    padding: 50px 10px;
+    text-align: center;
+    border-top: 1px solid #CCC;
+    color: #FFF;
+}
+
+.copyright p {
+    line-height: 25px;
+}
+
+.copyright a {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.copyright a:hover {
+    color: #0C789F;
+}
+
+/*-- //Footer --*/
+.social-icons{
+    color: #0C789F;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    margin-left: -5px;
+    list-style: none;
+    padding-left: 55px;
+}
+
+ul.social-icons li a{
+    padding: 5px;
+    display: block;
+    background-color: #0C789F;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
